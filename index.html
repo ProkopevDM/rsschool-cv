@@ -7,6 +7,121 @@
 	<link rel="stylesheet" href="./styles/index.css">
 	<title>Portfolio</title>
 </head>
-<body>
+<body class="page">
+	<header class="header">
+		<div class="profile">
+			<img src="./images/avatar.jpg" alt="avatar" class="profile__avatar">
+			<h1 class="profile__name">Prokopev Dmitry</h1>
+		</div>
+		<nav class="nav">
+			<ul class="list nav__list">
+				<li class="list__item nav__list-item"><a class="link" href="#aboutMe">About me</a></li>
+				<li class="list__item nav__list-item"><a class="link" href="#skills">My skills</a></li>
+				<li class="list__item nav__list-item"><a class="link" href="#code">Code example</a></li>
+				<li class="list__item nav__list-item"><a class="link" href="#courses">Courses</a></li>
+				<li class="list__item nav__list-item"><a class="link" href="#projects">Educational projects</a></li>
+				<li class="list__item nav__list-item"><a class="link" href="#languages">Languages</a></li>
+				<li class="list__item nav__list-item"><a class="link" href="#contacts">My contacts</a></li>
+			</ul>
+		</nav>
+		<div class="header__triangle rotation"></div>
+	</header>
+	<main class="main">
+		<section class="content">
+			<h2 class="title" id="aboutMe">About me</h2>
+			<p class="content__text">I am 22 years old and live in the city of Kamensk-Uralsky. He graduated from a railway college by profession as an assistant to an electric locomotive driver, but did not pass a medical examination. I am currently studying at RsSchool.</p>
+			<p class="content__text">I also studied at Yandex, but I didn't learn much. However, I continue to study.</p>
+		</section>
+		<section class="content">
+			<h2 class="title" id="skills">My skills</h2>
+			<ul class="list">
+				<li class="list__item">HTML and CSS;</li>
+				<li class="list__item">JavaScript basics;</li>
+				<li class="list__item">React basics;</li>
+				<li class="list__item">NodeJS and Express basics;</li>
+				<li class="list__item">Git and GitHub basics.</li>
+			</ul>
+		</section>
+		<section class="content">
+			<h2 class="title" id="code">Code example</h2>
+			<p class="content__text">A piece of code written for the Yandex educational project.</p>
+			<pre class="code">
+				<code class="code__text">
+export default class UserInfo {
+	constructor({profileName, profession, avatar}) {
+		this._profileName = document.querySelector(profileName);
+		this._profession = document.querySelector(profession);
+		this._avatar = document.querySelector(avatar);
+	};
+	getUserInfo() {
+		return {
+			name: this._profileName.textContent,
+			job: this._profession.textContent,
+		}
+	};
+	setUserInfo(name, about) {
+		this._profileName.textContent = name;
+		this._profession.textContent = about;
+	};
+	setUserAvatar(avatar) {
+		this._avatar.src = avatar;
+	}
+}
+				</code>
+			</pre>
+		</section>
+		<section class="content">
+			<h2 class="title" id="courses">Courses</h2>
+			<p class="content__text">Graduated from Yandex.Praktikum course.</p>
+			<img class="content__image" src="./images/diplom.png" alt="diplom">
+		</section>
+		<section class="content">
+			<h2 class="title" id="projects">Educational projects</h2>
+			<div class="cards">
+				<div class="card">
+					<img class="card__image" src="./images/lern.png" alt="site snapshot">
+					<a class="link clarity" href="https://prokopevdm.github.io/how-to-learn/" title="how to lern" target="_blank">
+						<p class="card__title">How to lern</p>
+					</a>
+				</div>
+				<div class="card">
+					<img class="card__image" src="./images/mesto.png" alt="site snapshot">
+					<a class="link clarity" href="https://prokopevdm.github.io/mesto/" title="mesto" target="_blank">
+						<p class="card__title">Mesto</p>
+					</a>
+				</div>
+				<div class="card">
+					<img class="card__image" src="./images/travel.png" alt="site snapshot">
+					<a class="link clarity" href="https://prokopevdm.github.io/russian-travel/index.html" title="travel" target="_blank">
+						<p class="card__title">Travel</p>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="content">
+			<h2 class="title" id="languages">Languages and education</h2>
+			<ul class="list">
+				<li class="list__item"> College of rail transport - Electric locomotive driver assistant</li>
+				<li class="list__item">Russian - Native;</li>
+				<li class="list__item">English - Basics.</li>
+			</ul>
+		</section>
+		<section class="content">
+			<h2 class="title" id="contacts">My contacts</h2>
+			<ul class="list contacts-list">
+				<li class="list__item"><a href="https://github.com/ProkopevDM" target="_blank" title="github"><img class="contacts-icon clarity" src="./images/git.png" alt="github"></a></li>
+				<li class="list__item"><a href="https://vk.com/prokopevdm" target="_blank" title="vk"><img class="contacts-icon clarity" src="./images/vk.png" alt="vkontakte"></a></li>
+				<li class="list__item"><a href="https://discordapp.com/users/ProkopevDM#6945/" target="_blank" title="discord - ProkopevDM#6945"><img class="contacts-icon clarity" src="./images/discord.png" alt="discord"></a></li>
+				<li class="list__item"><a href="mailto:trololbambo@gmail.com" target="_blank" title="email"><img class="contacts-icon clarity" src="./images/email.png" alt="email"></a></li>
+			</ul>
+		</section>
+	</main>
+	<footer class="footer">
+		<a class="link footer__logo-link" href="https://rs.school/js/" target="_blank">
+			<img class="footer__logo clarity" src="https://rs.school/images/rs_school_js.svg" alt="logo" title="logo">
+		</a>
+		<p class="footer__author">&copy; 2022. Dmitry Prokopev</p>
+		<a href="https://github.com/ProkopevDM" target="_blank" title="github"><img class="contacts-icon clarity" src="./images/git.png" alt="github"></a>
+	</footer>
 </body>
 </html>
