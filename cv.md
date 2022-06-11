@@ -1,4 +1,4 @@
-![Avatar]( images/lufy.jpg "Avatar")
+![Avatar]( images/avatar.jpg "Avatar")
 # Prokopev Dmitry (22 years)
 ---
 ## My contacts
