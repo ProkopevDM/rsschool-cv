@@ -1,1 +1,1 @@
-[**CV#2. HTML, CSS & Git Basics**](https://prokopevdm.github.io/rsschool-cv/ "CV2")
+[**CV**](https://prokopevdm.github.io/rsschool-cv/ "CV")
