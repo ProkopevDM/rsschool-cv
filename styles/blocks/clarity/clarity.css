@@ -1,0 +1,4 @@
+.clarity:hover {
+	opacity: .7;
+	transition: opacity .7s;
+}
