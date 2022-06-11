@@ -1,0 +1,5 @@
+.nav__list-item:hover {
+	color: white;
+	background-color: black;
+	transition: all .7s;
+}

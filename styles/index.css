@@ -1,0 +1,48 @@
+/*Импорты блока link*/
+@import url(./blocks/link/link.css);
+/*Импорты блока rotation*/
+@import url(./blocks/rotation/rotation.css);
+/*Импорты блока hover*/
+@import url(./blocks/clarity/clarity.css);
+/*Импорты блока page*/
+@import url(./blocks/page/page.css);
+/*Импорты блока header*/
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__triangle/header__triangle.css);
+/*Импорты блока profile*/
+@import url(./blocks/profile/profile.css);
+@import url(./blocks/profile/__avatar/profile__avatar.css);
+@import url(./blocks/profile/__name/profile__name.css);
+/*Импорты блока nav*/
+@import url(./blocks/nav/nav.css);
+@import url(./blocks/nav/__list/nav__list.css);
+@import url(./blocks/nav/__list-item/nav__list-item.css);
+/*Импорты блока list*/
+@import url(./blocks/list/list.css);
+@import url(./blocks/list/__item/list__item.css);
+/*Импорты блока main*/
+@import url(./blocks/main/main.css);
+/*Импорты блока content*/
+@import url(./blocks/content/content.css);
+@import url(./blocks/content/__text/content__text.css);
+@import url(./blocks/content/__image/content__image.css);
+/*Импорты блока title*/
+@import url(./blocks/title/title.css);
+/*Импорты блока code*/
+@import url(./blocks/code/code.css);
+@import url(./blocks/code/__text/code__text.css);
+/*Импорты блока cards*/
+@import url(./blocks/cards/cards.css);
+/*Импорты блока card*/
+@import url(./blocks/card/card.css);
+@import url(./blocks/card/__image/card__image.css);
+@import url(./blocks/card/__title/card__title.css);
+/*Импорты блока contacts-list*/
+@import url(./blocks/contacts-list/contacts-list.css);
+/*Импорты блока contacts-icon*/
+@import url(./blocks/contacts-icon/contacts-icon.css);
+/*Импорты блока footer*/
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__logo/footer__logo.css);
+@import url(./blocks/footer/__logo-link/footer__logo-link.css);
+@import url(./blocks/footer/__author/footer__author.css);
