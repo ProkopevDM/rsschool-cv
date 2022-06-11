@@ -47,26 +47,26 @@
 			<p class="content__text">A piece of code written for the Yandex educational project.</p>
 			<pre class="code">
 				<code class="code__text">
-export default class UserInfo {
-	constructor({profileName, profession, avatar}) {
-		this._profileName = document.querySelector(profileName);
-		this._profession = document.querySelector(profession);
-		this._avatar = document.querySelector(avatar);
-	};
-	getUserInfo() {
-		return {
-			name: this._profileName.textContent,
-			job: this._profession.textContent,
+	export default class UserInfo {
+		constructor({profileName, profession, avatar}) {
+			this._profileName = document.querySelector(profileName);
+			this._profession = document.querySelector(profession);
+			this._avatar = document.querySelector(avatar);
+		};
+		getUserInfo() {
+			return {
+				name: this._profileName.textContent,
+				job: this._profession.textContent,
+			}
+		};
+		setUserInfo(name, about) {
+			this._profileName.textContent = name;
+			this._profession.textContent = about;
+		};
+		setUserAvatar(avatar) {
+			this._avatar.src = avatar;
 		}
-	};
-	setUserInfo(name, about) {
-		this._profileName.textContent = name;
-		this._profession.textContent = about;
-	};
-	setUserAvatar(avatar) {
-		this._avatar.src = avatar;
 	}
-}
 				</code>
 			</pre>
 		</section>
@@ -79,20 +79,20 @@ export default class UserInfo {
 			<h2 class="title" id="projects">Educational projects</h2>
 			<div class="cards">
 				<div class="card">
-					<img class="card__image" src="./images/lern.png" alt="site snapshot">
-					<a class="link clarity" href="https://prokopevdm.github.io/how-to-learn/" title="how to lern" target="_blank">
+					<a class="link" href="https://prokopevdm.github.io/how-to-learn/" title="how to lern" target="_blank">
+						<img class="card__image" src="./images/lern.png" alt="site snapshot">
 						<p class="card__title">How to lern</p>
 					</a>
 				</div>
 				<div class="card">
-					<img class="card__image" src="./images/mesto.png" alt="site snapshot">
-					<a class="link clarity" href="https://prokopevdm.github.io/mesto/" title="mesto" target="_blank">
+					<a class="link" href="https://prokopevdm.github.io/mesto/" title="mesto" target="_blank">
+						<img class="card__image" src="./images/mesto.png" alt="site snapshot">
 						<p class="card__title">Mesto</p>
 					</a>
 				</div>
 				<div class="card">
-					<img class="card__image" src="./images/travel.png" alt="site snapshot">
-					<a class="link clarity" href="https://prokopevdm.github.io/russian-travel/index.html" title="travel" target="_blank">
+					<a class="link" href="https://prokopevdm.github.io/russian-travel/index.html" title="travel" target="_blank">
+						<img class="card__image" src="./images/travel.png" alt="site snapshot">
 						<p class="card__title">Travel</p>
 					</a>
 				</div>
@@ -109,10 +109,10 @@ export default class UserInfo {
 		<section class="content">
 			<h2 class="title" id="contacts">My contacts</h2>
 			<ul class="list contacts-list">
-				<li class="list__item"><a href="https://github.com/ProkopevDM" target="_blank" title="github"><img class="contacts-icon clarity" src="./images/git.png" alt="github"></a></li>
-				<li class="list__item"><a href="https://vk.com/prokopevdm" target="_blank" title="vk"><img class="contacts-icon clarity" src="./images/vk.png" alt="vkontakte"></a></li>
-				<li class="list__item"><a href="https://discordapp.com/users/ProkopevDM#6945/" target="_blank" title="discord - ProkopevDM#6945"><img class="contacts-icon clarity" src="./images/discord.png" alt="discord"></a></li>
-				<li class="list__item"><a href="mailto:trololbambo@gmail.com" target="_blank" title="email"><img class="contacts-icon clarity" src="./images/email.png" alt="email"></a></li>
+				<li class="list__item">Github: <a href="https://github.com/ProkopevDM" target="_blank" title="github"><img class="contacts-icon clarity" src="./images/git.png" alt="github"></a></li>
+				<li class="list__item">Vkontakte: <a href="https://vk.com/prokopevdm" target="_blank" title="vk"><img class="contacts-icon clarity" src="./images/vk.png" alt="vkontakte"></a></li>
+				<li class="list__item">Discord: <a href="https://discordapp.com/users/ProkopevDM#6945/" target="_blank" title="discord - ProkopevDM#6945"><img class="contacts-icon clarity" src="./images/discord.png" alt="discord"></a></li>
+				<li class="list__item">Email: <a href="mailto:trololbambo@gmail.com" target="_blank" title="email"><img class="contacts-icon clarity" src="./images/email.png" alt="email"></a></li>
 			</ul>
 		</section>
 	</main>
