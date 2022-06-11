@@ -5,6 +5,7 @@
 	border-bottom: 3px solid black;
 	overflow: hidden;
 	transition: transform .2s;
+	list-style: none;
 }
 
 .card:hover {
